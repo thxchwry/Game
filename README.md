@@ -1,4 +1,4 @@
-# Simple Rhythm Game (Processing / Java) 🎵🎮
+# Simple Rhythm Game (Processing) 🎵🎮
 
 โปรเจกต์เกมกดตามจังหวะเพลงที่พัฒนาด้วย **Processing** โดยใช้ภาษา **Java** เป็นหลัก ตัวเกมเน้นการตอบสนองที่รวดเร็วและการซิงค์ข้อมูลระหว่างไฟล์เสียงและกราฟิกบนหน้าจอ
 
@@ -16,20 +16,3 @@
 
 - **Development Environment**: Processing IDE
 - **Language**: Java (Processing Language)
-- **Audio Library**: Minim (สำหรับจัดการไฟล์เพลงและการวิเคราะห์จังหวะ)
-- **Graphic Assets**: PNG images & PImage class
-
----
-
-## 📂 โครงสร้างโปรเจกต์โดยย่อ
-
-```text
-game/
-├── Project.pde           # โค้ดหลักของเกม (Setup, Draw, Game Logic)
-├── data/                 # แหล่งเก็บทรัพยากรที่ใช้ในเกม
-│   ├── 01.png - 04.png   # ภาพประกอบ Background และ UI
-│   ├── BIRDS OF A FEATHER.mp3 # ไฟล์เพลงประกอบ
-│   ├── About You.mp3     # ไฟล์เพลงประกอบ
-│   └── Thats So True.mp3 # ไฟล์เพลงประกอบ
-└── README.md             # ไฟล์อธิบายโปรเจกต์
-```
